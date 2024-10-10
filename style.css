@@ -1,0 +1,59 @@
+body {
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+h1 {
+	font-family: "Source Code Pro", monospace;
+	font-size: 4em;
+	font-weight: 200;
+	text-align: center;
+}
+h2#presenter {
+	color: blue;
+}
+a {
+	color: yellow;
+	text-decoration: none;
+}
+/* When user hovers over a link */
+a:hover {
+	text-decoration: underline;
+}
+p {
+	text-indent: 20px;
+}
+iframe {
+	display: block;
+	margin: auto;
+}
+img {
+	padding: 20px;
+	border: 2px dotted white;
+	border-radius: 20px;
+	display: block;
+	margin: 40px auto;
+}
+table, th, td {
+	border: thin dashed white; 
+	background-color: #333333;
+	border-collapse: collapse;
+	padding: 8px;
+}
+th {
+	font-size: 1.25em;
+	text-align: left;
+}
+
+.bio {
+	background-color: #333333;
+	padding: 1em;
+}
+.bio p {
+	font-style: italic;
+}
+.bio p #highlight {
+	background-color: yellow;
+	color: black;
+	font-style: normal;
+}
